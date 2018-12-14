@@ -12,7 +12,7 @@ namespace CoreConsoleApp.Tests
         {
             List<object[]> testData = new List<object[]>();
             //"C:\PersonalFolder\StudyThings\CoreConsoleApp\CoreConsoleApp\Test.csv"
-            string[] csvAllLines =  File.ReadAllLines(@"C:\PersonalFolder\StudyThings\CoreConsoleApp\CoreConsoleApp\Test.csv");
+            string[] csvAllLines =  File.ReadAllLines(@"\Test.csv");
 
             foreach(string csvRow in csvAllLines)
             {
